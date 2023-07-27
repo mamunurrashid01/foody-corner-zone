@@ -40,8 +40,8 @@
   <section class="max-w-screen-lg mx-auto bg-nav-color my-8 rounded-full">
     <nav>
 
-      <div class="navbar flex justify-between items-center">
-        <div class="menu  menu-horizontal list-none space-x-8 text-white">
+      <div class="navbar grid grid-flow-col md:grid-flow-col-3 justify-between items-center">
+        <div class="hidden md:flex  list-none space-x-2 md:space-x-4 lg:space-x-8 text-white">
           <li class="list-item">Home</li>
           <li class="list-item">About Us</li>
           <li class="list-item">Shop</li>
@@ -66,7 +66,7 @@
   </section>
 
 
-  <!-- navbar area start -->
+  <!-- navbar area end -->
 
   <div class="banner-section max-w-screen-lg mx-auto my-8">
     <div class="carousel w-full">
@@ -130,15 +130,51 @@
 
   </div>
 
+
+  <!-- bonus-section start -->
+  
+<section class="bonus-image-section max-w-screen-md p-4 mx-auto grid grid-flow-col text-center gap-8 drop-shadow-lg shadow-md bg-white rounded justify-center items-center -mt-36">
+
+  <div>
+    <img src="./images/fruit1.png" alt="image">
+    <h3 class="text-p-tag-color font-medium">cherry</h3>
+  </div>
+  <div>
+    <img src="./images/fruit2.png" alt="image">
+    <h3 class="text-p-tag-color font-medium">Orange</h3>
+  </div>
+  <div>
+    <img src="./images/fruit3.png" alt="image">
+    <h3 class="text-p-tag-color font-medium">Mango</h3>
+  </div>
+  <div>
+    <img src="./images/fruit4.png" alt="image">
+    <h3 class="text-p-tag-color font-medium">Strawberry</h3>
+  </div>
+  <div>
+    <img src="./images/fruit5.png" alt="image">
+    <h1 class="text-p-tag-color font-medium">Mango</h1>
+  </div>
+
+
+
+
+</section>
+
+
+
+  <!-- bonus-section start -->
+
+
   <section class=" max-w-screen-lg mx-auto my-8">
-    <div class="deal-of-the-day grid grid-flow-col md:grid-cols-1 gap-5 justify-center mb-10">
+    <div class="deal-of-the-day grid grid-cols-1 items-center lg:grid-cols-2 gap-5 justify-center mb-10">
       <div class="content">
         <h1 class="text-4xl font-bold text-font-color">Deal of the day</h1>
         <p class="text-p-tag-color font-medium">Contrary to popular belief, is not simply random text. It has roots in a
           piece <br> of classical Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
       <div class="cowndown">
-        <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+        <div class="grid grid-flow-col gap-x-16 text-center auto-cols-max">
           <div class="flex text-p-tag-color font-semibold flex-col">
             <span class="countdown text-font-color font-bold text-2xl">
               <span class="ml-8" style="--value:15;"></span><svg xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -315,14 +351,14 @@
   <!-- team section start  -->
   <section class="max-w-screen-lg  mx-auto my-8">
     <div
-      class="team-member pt-20 pb-5 bg-gradient-to-r from-back-color to-backing-color  bg-contain bg-no-repeat bg-bottom"
+      class="team-member pt-8 lg:pt-20 lg:pb-5 pb-1 bg-inherit bg-blend-hue lg:bg-contain bg-no-repeat bg-bottom"
       style="background-image: url(./images/banner1.png)">
       <div class="team-header w-2/3 m-auto text-center">
         <h1 class="text-4xl font-bold text-slate-100 mb-4">Meet the team section</h1>
         <p class="text-slate-100 font-medium">Contrary to popular belief, is not simply random text. It has roots in a
           piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
-      <div class="team-member-image mt-8 flex justify-center items-center gap-10 w-full">
+      <div class="team-member-image mt-3 lg:mt-8 flex flex-col lg:flex-row justify-center items-center gap-10 ">
         <div class="team-person-one text-center">
           <img src="./images/member1.png" alt="person">
           <h1 class="text-2xl font-bold text-slate-100">Awlad Hossain</h1>
@@ -373,14 +409,14 @@
 
   <!-- why choose us section start -->
 
-  <section class="max-w-screen-lg  mx-auto mt-8 mb-14">
+  <section class="max-w-screen-lg px-2 mx-auto mt-8 mb-14">
 
     <div class="choice-container text-center">
       <h1 class="text-4xl font-bold text-font-color">Why Choose Us</h1>
     <p class="text-sm w-96 m-auto text-center font-medium text-p-tag-color mb-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
     </div>
 
-    <div class="choice-details flex justify-center items-center gap-5">
+    <div class="choice-details flex flex-col lg:flex-row justify-center items-center lg:gap-5 gap-3">
       <div class="choice-left ">
         <div class="flex justify-center items-center gap-3">
         <div class="svg-div bg-[#E7E7E7] p-3 rounded-full">
@@ -520,7 +556,7 @@
 
   <!-- footer section start -->
   <footer>
-    <footer class="footer footer-center p-10 bg-[#121212] text-base-content rounded">
+    <footer class="footer footer-center p-4 lg:p-10 bg-[#121212] text-base-content rounded">
 
         
     <div class="footer-logo  grid grid-flow-col">
